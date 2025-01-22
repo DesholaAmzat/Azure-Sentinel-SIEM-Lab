@@ -19,8 +19,8 @@ In this lab, I was able to set up my own virtual machine in Azure, and turn off 
 
 <h2> Program Walk Through</h2>
 
-<img src="https://i.imgur.com/NSur3hf.png" height="88%" width="80%" />
-<img src="https://i.imgur.com/F5U0Qbn.png" height="88%" width="80%" /> 
+<img src="https://i.imgur.com/NSur3hf.png" height="44%" width="30%" />
+<img src="https://i.imgur.com/F5U0Qbn.png" height="44%" width="30%" /> 
 <img src="https://i.imgur.com/GLRFaD4.png" height="88%" width="80%" /> 
 The first thing you want to do, is navigate to the Azure website and start a free trial. You will need a credit card on hand, but, you are given $200 of free credits which is more than enough for this lab. The link to create an Azure account can be found  
 
