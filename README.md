@@ -47,6 +47,9 @@ Go back to the log analytics workspace page, select virtual machine, and click o
  <img src="https://i.imgur.com/1qgh2T6.png" height="88%" width="80%" /> 
 On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel" and select the log analytics workspace from earlier
 
- <img src="https://i.imgur.com/052xxLk.png" height="88%" width="80%" /> 
- Now that the log analytics workspace is done connecting to the VM, notice and copy the IP address of our VM
+ VM IP ADDRESS             |  RDP INTO VM
+ :-------------------------:|:-------------------------:|
+ ![](https://i.imgur.com/052xxLk.png)  |  ![](https://i.imgur.com/yghWZR9.png)  
+
+ Now that the log analytics workspace is done connecting to the VM, notice and copy the IP address of our VM. Now open a remote desktop protocol window and try to log into the VM via IP. Be sure to go to "More choices" and "Use a different account" to specify the username. For this step, we will be entering random characters for the password, as we want a failed attempt. I used the "ADMAAMZAT" username, which is the correct username, but for comprehension be sure to log in with a username like "TestLogin" so you can easily identify your attempts. 
   
