@@ -19,10 +19,12 @@ In this lab, I was able to set up my own virtual machine in Azure, and turn off 
 
 <h2> Program Walk Through</h2>
 
-<img src="https://i.imgur.com/tEDWgAM.png" height="88%" width="80%" />
-Navigate to the splunk website in your VM and download splunk enterprise. It can be found  
+<img src="https://i.imgur.com/NSur3hf.png" height="88%" width="80%" />
+<img src="https://i.imgur.com/F5U0Qbn.png" height="88%" width="80%" /> 
+<img src="https://i.imgur.com/GLRFaD4.png" height="88%" width="80%" /> 
+The first thing you want to do, is navigate to the Azure website and start a free trial. You will need a credit card on hand, but, you are given $200 of free credits which is more than enough for this lab. The link to create an Azure account can be found  
 
-[here](https://www.splunk.com/en_us/download.html?utm_campaign=google_amer_en_search_brand&utm_source=google&utm_medium=cpc&utm_content=free_trials_downloads&utm_term=splunk%20free&device=c&_bt=662330344243&_bm=p&_bn=g&gad_source=1&gclid=Cj0KCQiA1p28BhCBARIsADP9HrMeXO3BO27U8uvJd3ZGtVBdH94JRZ-JBDfISjaXFzGBvjKKrn-NFRoaAu0dEALw_wcB)    
+[here](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&OCID=AIDcmmfq865whp_SEM__k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&gad_source=1&gclid=Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB)    
 
 
 
