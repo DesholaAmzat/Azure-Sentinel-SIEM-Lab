@@ -45,5 +45,8 @@ Go to the "Microsoft Defender for Cloud" page and navigate to "Environment Setti
 Go back to the log analytics workspace page, select virtual machine, and click on the VM we created earlier. We need the workspace to pull logs from the VM so click on the connect button once you have the specific VM selected. This will take a while so in a new tab go back to the azure portal page.
 
  <img src="https://i.imgur.com/1qgh2T6.png" height="88%" width="80%" /> 
-On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel"
- 
+On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel" and select the log analytics workspace from earlier
+
+ <img src="https://i.imgur.com/052xxLk.png" height="88%" width="80%" /> 
+ Now that the log analytics workspace is done connecting to the VM, notice and copy the IP address of our VM
+  
