@@ -39,6 +39,11 @@ Search for log analytics workspace, and then click create. Be sure to match your
 <img src="https://i.imgur.com/IfseotM.png" height="88%" width="80%" /> 
 <img src="https://i.imgur.com/6XjsFKr.png" height="88%" width="80%" /> 
 
-Go to the "Microsoft Defender for Cloud" page and navigate to "Environment Settings". Select our honeypot, then under defender plans, be sure to turn "SQL server of machines" off
+Go to the "Microsoft Defender for Cloud" page and navigate to "Environment Settings". Select our honeypot, then under defender plans, be sure to turn "SQL server of machines" off. Save this, then under the data collection tab on the left, be sure to select "All events" and save
 
+<img src="https://i.imgur.com/rUqgDZa.png" height="88%" width="80%" /> 
+Go back to the log analytics workspace page, select virtual machine, and click on the VM we created earlier. We need the workspace to pull logs from the VM so click on the connect button once you have the specific VM selected. This will take a while so in a new tab go back to the azure portal page.
 
+ <img src="https://i.imgur.com/1qgh2T6.png" height="88%" width="80%" /> 
+On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel"
+ 
