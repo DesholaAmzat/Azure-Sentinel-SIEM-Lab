@@ -3,18 +3,19 @@
 <br/> 
 
 <h2>Description</h2>
-In this lab, I was able to set up my own virtual machine in Azure, turn off the firewall on the VM, to allow anyone across the world to try to access my VM, effectively turning it into a honeypot. From there, I was able to set up a SIEM in Azure Sentinel and ingested the Security logs, that I used custom Powershell script to extract their metadata and geolocation from, and I configured the Sentinel workbook to display all the failed RDP brute force attempts on a world map
+In this lab, I was able to set up my own virtual machine in Azure, and turn off the firewall on the VM. This allows anyone across the world to try to access my VM, effectively turning it into a honeypot. From there, I was able to set up a SIEM in Azure Sentinel to ingest the Security logs, which I used a custom Powershell script to extract their IP address from the log, and then the script would forward the address to an API to derive geolocation data. After this, I configured the Sentinel workbook to display all the failed RDP brute force attempts on a world map, using the logs generated from Windows event viewer and the Powershell script.
 
 <h2> Languages and Utilities Used</h2>
 
-- Splunk Enterprise
-- Search Processing Language
-- Oracle VirtualBox
+- Micosoft Azure Portal
+- Microsoft Azure Sentinel
+- Powershell
+- Kusto Query Language (KQL)
 
 
 <h2> Environments Used</h2>
 
-- Windows Server 2019
+- Windows 10 
 
 <h2> Program Walk Through</h2>
 
