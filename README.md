@@ -24,7 +24,11 @@ Setup Azure             |  landing page          |             Create a VM
 ![](https://i.imgur.com/NSur3hf.png)  |  ![](https://i.imgur.com/F5U0Qbn.png)  |  ![](https://i.imgur.com/GLRFaD4.png)
 
 The first thing you want to do, is navigate to the Azure website and start a free trial. You will need a credit card on hand, but, you are given $200 of free credits which is more than enough for this lab. The link to create an Azure account can be found  <br>[here.](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&OCID=AIDcmmfq865whp_SEM__k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&gad_source=1&gclid=Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB)</br> Once you get to this landing page and have your Azure account set up, you want to search in the search bar up top for virtual machines. Once you're bought to the virtual machine page click on create.
-<img src="https://i.imgur.com/DMMZpUy.png" height="70%" width="80%" />
+ 
+ 
+ Basics             |  Networking          
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/DMMZpUy.png)  |  ![](https://i.imgur.com/vEUeJFI.png)  
 
 These are the settings you would want to use to configure your VM for this lab. Notice the username and password section. Be sure to use a secure username and password for logging into your virtual machine. This is important as in this lab, Hackers from around the world will be trying to Brute Force their way in by guessing the password.  
 
