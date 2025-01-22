@@ -26,11 +26,11 @@ Setup Azure             |  landing page          |             Create a VM
 The first thing you want to do, is navigate to the Azure website and start a free trial. You will need a credit card on hand, but, you are given $200 of free credits which is more than enough for this lab. The link to create an Azure account can be found  <br>[here.](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search?ef_id=_k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&OCID=AIDcmmfq865whp_SEM__k_Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB_k_&gad_source=1&gclid=Cj0KCQiAqL28BhCrARIsACYJvkfx82ByVL_YMl4RFQUMCFTN8gHeh54rLKU29G_bHIgplZ4fTXFKWq4aAgZdEALw_wcB)</br> Once you get to this landing page and have your Azure account set up, you want to search in the search bar up top for virtual machines. Once you're bought to the virtual machine page click on create.
  
  
- Basics             |  Networking          
-:-------------------------:|:-------------------------:
-![](https://i.imgur.com/DMMZpUy.png)  |  ![](https://i.imgur.com/vEUeJFI.png)  
+ Basics             |  Network Security Group         |             Networking          
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://i.imgur.com/DMMZpUy.png)  |  ![](https://i.imgur.com/XrHz1bA.png)  |  ![](https://i.imgur.com/vEUeJFI.png)   
 
-These are the settings you would want to use to configure your VM for this lab. Notice the username and password section. Be sure to use a secure username and password for logging into your virtual machine. This is important as in this lab, Hackers from around the world will be trying to Brute Force their way in by guessing the password.  
+These are the settings you would want to use to configure your VM for this lab. Notice the username and password section. Be sure to use a secure username and password for logging into your virtual machine. This is important as in this lab, Hackers from around the world will be trying to Brute Force their way in by guessing the password. On the networking page, choose the advanced option for NIC Network Security Group, and select the create new option to create a new network security group.
 
 <img src="https://i.imgur.com/osYPbxc.png" height="88%" width="80%" /> 
 Once you have reached this landing page, we now need to set our logs up to be ingested within the tool. Navigate to the settings tab in the top right corner, then select Data Inputs, and click on the edit button next to local event log collection. In this lab we will only deal with local events, instead of a remote system. 
