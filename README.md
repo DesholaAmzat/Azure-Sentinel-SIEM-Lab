@@ -67,4 +67,11 @@ Now in our actual machine, we will attempt to Ping the IP address of our virtual
 
 <img src="https://i.imgur.com/Eu5rxvo.png" height="88%" width="80%" /> 
 On the virtual machine let's open Windows Firewall by typing “wf.msc” in the search bar. Click on Windows Defender Firewall properties and turn the firewall State off for the domain, public, and private profiles 
- 
+
+
+<img src="https://i.imgur.com/kMLBD2g.png" height="88%" width="80%" /> 
+Now you'll see our ping command which has been running from earlier is now successful, since we've turned off the firewall, and echo requests are allowed. This is great, because it means our honey pot is now ready to be discovered by hackers.
+
+<img src="https://i.imgur.com/Mkm2wxG.png" height="88%" width="80%" /> 
+Now in our virtual machine, let us open up Powershell ISE, and paste our custom Powershell script into the terminal. This script is made to collect every failed login attempt from the event Viewer security log, take the IP address from that event, and plug it into a third party API, in order to derive the geolocation of the event in latitude, longitude, as well as state and Country. Be sure to save this script, I saved it under the name "Log_Exporter"
+
