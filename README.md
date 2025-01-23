@@ -75,3 +75,6 @@ Now you'll see our ping command which has been running from earlier is now succe
 <img src="https://i.imgur.com/Mkm2wxG.png" height="88%" width="80%" /> 
 Now in our virtual machine, let us open up Powershell ISE, and paste our custom Powershell script into the terminal. This script is made to collect every failed login attempt from the event Viewer security log, take the IP address from that event, and plug it into a third party API, in order to derive the geolocation of the event in latitude, longitude, as well as state and Country. Be sure to save this script, I saved it under the name "Log_Exporter"
 
+<img src="https://i.imgur.com/A8CqETE.png" height="88%" width="80%" /> 
+
+<br>[Click this link to be taken to the website for resolving IPs to their geolocation. Once you create an account you will be taken to the page with your API key](https://ipgeolocation.io/)</br>
