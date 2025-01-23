@@ -85,4 +85,8 @@ Now plug your API key into the powershell script and let it run. Here you can se
 <img src="https://i.imgur.com/bEWD5ql.png" height="88%" width="80%" /> 
 Here you can see more failed log in attempts. All these attempts were by me. Pay attention to the username, as I used the actual username "ADMAAMZAT" and "TestLogin". Later on you will see the failed attempts from actual hackers try to brute force their way in with user names like "admin" and "Administrator". This highlights the importance of changing the default usernames and passwords on internet accessible devices.
 
+<img src="https://i.imgur.com/szhtxyN.png" height="88%" width="80%" /> 
+<img src="https://i.imgur.com/Z8nfcxn.png" height="88%" width="80%" /> 
+I continued to let the script run overnight, and here we can see a greater number of attempts have occured from many different locations. Even though these events are not in the powershell terminal like the previous pictures, this is expected because our script writes them to a .txt file saved on our VM. Now we need to copy and paste the text from our VM to the notepad app on our actual machine and save this file. 
+
 
