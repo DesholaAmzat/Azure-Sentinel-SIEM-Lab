@@ -60,3 +60,11 @@ On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel"
 1. Log into the virtual machine and open the windows Event Viewer
 2. Here you can see the highlighted of that is an audit failure and has an event code of 4625, which means login failed
 3. If you pay attention under Network information, we can find out more about the device that attempted to log in.
+
+
+<img src="https://i.imgur.com/mYKdpnp.png" height="88%" width="80%" /> 
+Now in our actual machine, we will attempt to Ping the IP address of our virtual machine. Notice the request timed out because our firewall on the virtual machine is blocking traffic.
+
+<img src="https://i.imgur.com/Eu5rxvo.png" height="88%" width="80%" /> 
+On the virtual machine let's open Windows Firewall by typing “wf.msc” in the search bar. Click on Windows Defender Firewall properties and turn the firewall State off for the domain, public, and private profiles 
+ 
