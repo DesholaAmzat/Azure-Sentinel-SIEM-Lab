@@ -90,3 +90,9 @@ Here you can see more failed log in attempts. All these attempts were by me. Pay
 I continued to let the script run overnight, and here we can see a greater number of attempts have occured from many different locations. Even though these events are not in the powershell terminal like the previous pictures, this is expected because our script writes them to a .txt file saved on our VM. Now we need to copy and paste the text from our VM to the notepad app on our actual machine and save this file. 
 
 
+<img src="https://i.imgur.com/at57Dtc.pngg" height="88%" width="80%" /> 
+ Now let's navigate to the log analytics workspace again, and now we need to create a custom log. We can create custom logs by selecting Tables > Create> New Custom Log ( MMA-Based). From there it should ask for a sample log, and this is where we can upload the .txt file from our actual machine. Under collection path, the type will be windows and the path will be the directory path to the log file on the VM (C:\programdata\failed_rdp.log). Once the log is created, go to the log tab on the left, and type in "Failed_rdp_with_geo_cl" Press the run button to start pulling in data.You might need to wait 20-30 minutes for the log to sync all of the data however.
+
+<img src="https://i.imgur.com/ggM6SQo.png" height="88%" width="80%" /> 
+Lets go back to sentinel and select our honeypot. Select "workbooks", "add a new workbook", then select "edit" and remove both widgets by clicking on the 3 dots next to the edit button and select remove. Click on the "add" dropdown and select "add a query"
+
