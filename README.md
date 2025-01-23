@@ -96,3 +96,14 @@ I continued to let the script run overnight, and here we can see a greater numbe
 <img src="https://i.imgur.com/ggM6SQo.png" height="88%" width="80%" /> 
 Lets go back to sentinel and select our honeypot. Select "workbooks", "add a new workbook", then select "edit" and remove both widgets by clicking on the 3 dots next to the edit button and select remove. Click on the "add" dropdown and select "add a query"
 
+<img src="https://i.imgur.com/tKWlvO2.png" height="88%" width="80%" /> 
+Using Kusto Query Language, I was able to create a query that sorted out my data into a more comprehendible format, with all the fields from the raw data logs being seperated into their own columns
+
+ <img src="https://i.imgur.com/wn0xaXR.png" height="88%" width="80%" /> 
+ After changing the visualization setting to "Map" I can now see a clearer picture of where the many failed brute force attempts are coming from
+ 
+ <img src="https://i.imgur.com/GQtBNSr.png" height="88%" width="80%" /> 
+
+ Lastly, I changed the metric label under metric settings from "None" to "Label" and the metric value to "Event Count". Now I have a clear view of all the attempts to log into my honeypot based on their IP, location, and the amount of attempts.
+
+ Please let me know if you have any questions!
