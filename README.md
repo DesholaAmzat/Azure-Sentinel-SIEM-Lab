@@ -52,4 +52,11 @@ On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel"
  ![](https://i.imgur.com/052xxLk.png)  |  ![](https://i.imgur.com/yghWZR9.png)  
 
  Now that the log analytics workspace is done connecting to the VM, notice and copy the IP address of our VM. Now open a remote desktop protocol window and try to log into the VM via IP. Be sure to go to "More choices" and "Use a different account" to specify the username. For this step, we will be entering random characters for the password, as we want a failed attempt. I used the "ADMAAMZAT" username, which is the correct username, but for comprehension be sure to log in with a username like "TestLogin" so you can easily identify your attempts. 
-  
+ 
+ 1             |  2         |             3          
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://i.imgur.com/lqmEROK.png)  |  ![](https://i.imgur.com/7U0Pmzu.png)  |  ![](https://i.imgur.com/c1MD0Xr.png)  
+
+1. Log into the virtual machine and open the windows Event Viewer
+2. Here you can see the highlighted of that is an audit failure and has an event code of 4625, which means login failed
+3. If you pay attention under Network information, we can find out more about the device that attempted to log in.
