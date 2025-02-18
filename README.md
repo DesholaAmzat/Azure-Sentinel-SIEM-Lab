@@ -80,7 +80,7 @@ Now in our virtual machine, let us open up Powershell ISE, and paste our custom 
 <br>[Click this link to be taken to the website for resolving IPs to their geolocation. Once you create an account you will be taken to the page with your API key](https://ipgeolocation.io/)</br>
 
 <img src="https://i.imgur.com/Zu6lt3Q.png" height="88%" width="80%" /> 
-Now plug your API key into the powershell script and let it run. Here you can see it already pulled the first failed log in attempt, from my IP 69.244.83.49. The powershell script automatically writes all this information to the Program data folder in the Windows(C:) folder on the "failed_rdp" file
+Now plug your API key into the powershell script and let it run. Here you can see it already pulled the first failed log in attempt, from my public IP, which I have hid, for security reasons. The powershell script automatically writes all this information to the Program data folder in the Windows(C:) folder on the "failed_rdp" file
 
 <img src="https://i.imgur.com/bEWD5ql.png" height="88%" width="80%" /> 
 Here you can see more failed log in attempts. All these attempts were by me. Pay attention to the username, as I used the actual username "ADMAAMZAT" and "TestLogin". Later on you will see the failed attempts from actual hackers try to brute force their way in with user names like "admin" and "Administrator". This highlights the importance of changing the default usernames and passwords on internet accessible devices.
