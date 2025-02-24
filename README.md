@@ -55,11 +55,11 @@ On the Azure Portal Page, search for sentinel, and click on "Create MS Sentinel"
  
  1             |  2         |             3          
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/lqmEROK.png)  |  ![](https://i.imgur.com/7U0Pmzu.png)  |  ![]([https://i.imgur.com/lTc4GeI.png)  
+![](https://i.imgur.com/lqmEROK.png)  |  ![](https://i.imgur.com/7U0Pmzu.png)  |  ![](https://i.imgur.com/lTc4GeI.png)  
 
 1. Log into the virtual machine and open the windows Event Viewer
 2. Here you can see the highlighted of that is an audit failure and has an event code of 4625, which means login failed
-3. If you pay attention under Network information, we can find out more about the device that attempted to log in. As 
+3. If you pay attention under Network information, we can find out more about the device that attempted to log in. As always, my public IP address has been redacted for security reasons.
 
 
 <img src="https://i.imgur.com/mYKdpnp.png" height="88%" width="80%" /> 
